@@ -1,0 +1,6 @@
+---
+- name: echo command
+  hosts: localhost
+  - name: echo command
+    debug:
+     msg: "hello"
